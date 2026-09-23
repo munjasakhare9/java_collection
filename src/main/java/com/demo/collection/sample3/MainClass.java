@@ -26,6 +26,10 @@ public class MainClass {
 		}
 		
 		Student s=new Student(10,"yash");
+		Object ob=new Object();
+		System.out.println(ob.toString());
 		System.out.println(s);
+		
+		System.out.println("======================================");
 	}
 }
