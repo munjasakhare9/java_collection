@@ -12,7 +12,7 @@ public class Program1 {
 		al.add(50.20);
 		al.add(20);
 		al.add(2,200);
-		al.add(0,400);
+		al.add(9,400);
 		al.add(7,500);
 		System.out.println(al);
 		
