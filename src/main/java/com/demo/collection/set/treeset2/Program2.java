@@ -1,5 +1,6 @@
 package com.demo.collection.set.treeset2;
 
+import java.util.Iterator;
 import java.util.TreeSet;
 
 public class Program2 {
@@ -11,5 +12,11 @@ public class Program2 {
 		ts.add("ashok");
 		//ts.add(null); not allowed
 		System.out.println(ts);
+		
+		Iterator iterator=ts.iterator();
+		
+		while(iterator.hasNext()) {
+			System.out.println(iterator.next());
+		}
 	}
 }
