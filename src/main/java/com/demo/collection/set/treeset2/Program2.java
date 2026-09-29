@@ -14,7 +14,6 @@ public class Program2 {
 		System.out.println(ts);
 		
 		Iterator iterator=ts.iterator();
-		
 		while(iterator.hasNext()) {
 			System.out.println(iterator.next());
 		}
